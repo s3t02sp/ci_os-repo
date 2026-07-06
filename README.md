@@ -6,14 +6,10 @@ SigLevel = Optional TrustAll
 Server = https://github.com/s3t02sp/ci_os-repo/raw/main/$arch
 ```
 
-## Пакеты
-
-| Имя пакета | Версия | Описание |
-|------------|--------|----------|
-| **ci_os-calamares** | 3.4.2-4 | Установщик системы |
-| ckbcomp | 1.248-1 | Настройка клавиатуры |
-| mkinitcpio-openswap | 0.1.1-1 | Поддержка зашифрованного swap |
-
-> Зависимости Calamares (ckbcomp, mkinitcpio-openswap) разрешаются автоматически из этого репозитория.
+| Пакет | Описание |
+|-------|----------|
+| **ci_os-calamares** | Установщик (перепакован) |
+| ckbcomp | Зависимость (оригинал) |
+| mkinitcpio-openswap | Зависимость (оригинал) |
 
 Обновлено: 2026-07-06
