@@ -6,4 +6,4 @@ SigLevel = Optional TrustAll
 Server = https://github.com/s3t02sp/ci_os-repo/raw/main/$arch
 ```
 
-Обновлено: 2026-07-06
+Обновлено: 2026-07-07
